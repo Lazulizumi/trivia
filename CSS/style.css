@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    background-color:#FFFFFF;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:0;
+}
+.theme_font{
+    font-family:Helvetica,"Noto Sans Japanese",sans-serif;
+    list-style: none;
+    color:#333333;
+}
+.content_font{
+    font-family:"Noto Sans Japanese";
+    color:#333333;
+}
+.atag_none{
+    text-decoration: none;
+}
+.content_bg{
+    background-color: #FFFFFF;
+}
+
+
+
+header{
+    width:100%;
+    top:0px;
+    margin:0px;
+    border-bottom:2px solid #333333;
+    position: relative;
+    top:0;
+}
+.header_wrapper{
+    height:8rem;
+    margin:0 auto 1rem auto;
+    padding:1rem 0 0 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_title{
+    font-size:3rem;
+}
+nav{
+    margin-top:1rem;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin:0 1rem;
+}
+.glb_nav{
+    font-size:1.2rem;
+}
+/*Main
+============================================================================*/
+main{
+    margin:2rem 0 0 0;
+    border:2px solid #333333;
+}
+
+/*Aside
+============================================================================*/
+aside{
+    margin:2rem 0 0 0;
+    border:2px solid #333333;
+}
+
+/*Footer
+============================================================================*/
+footer{
+    margin:2rem 0 0 0;
+    border:2px solid #333333;
+}
+
+/*.header_wrapper{
+    margin:1rem auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}*/
